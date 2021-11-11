@@ -65,7 +65,7 @@ function App() {
               </Typography>
             <CardContent>
               <Grid container spacing={2}>
-                <Grid item x={12} md={6} lg={4}>
+                <Grid item xs={12} md={6} lg={4}>
                   <TextField
                     label="Enter Text Name"
                     variant="standard"
@@ -87,7 +87,7 @@ function App() {
                     </a> ) : null}
                   </Grid> 
                   {/* 2nd grid */}
-                <Grid item x={12} md={6} lg={4}>
+                <Grid item xs={12} md={6} lg={4}>
                   <Button
                    variant="contained"
                    color="error"
@@ -106,7 +106,7 @@ function App() {
                    <Typography variant="body1">Scanned Code: {ScanResultFile}</Typography>
                 </Grid>
                 {/* 3rd grid */}
-                <Grid item x={12} md={6} lg={4}>
+                <Grid item xs={12} md={6} lg={4}>
                   <Typography variant="subtitle1">QR Code Scan by WebCam</Typography>
                 <QrReader
                    delay={300}
